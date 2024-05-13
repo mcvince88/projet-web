@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:100&display=swap");
+
+h1 {
+    font-size: 60px;
+}
+h2 {
+    font-size: 60px;
+    color: #db4d00;
+}
+body {
+    background-image: radial-gradient(
+            closest-side,
+            transparent 0%,
+            transparent 75%,
+            #b6cc66 76%,
+            #b6cc66 85%,
+            #edffdb 86%,
+            #edffdb 94%,
+            #ffffff 95%,
+            #ffffff 103%,
+            #d9e6a7 104%,
+            #d9e6a7 112%,
+            #798b3c 113%,
+            #798b3c 121%,
+            #ffffff 122%,
+            #ffffff 130%,
+            #e0ead7 131%,
+            #e0ead7 140%
+        ),
+        radial-gradient(
+            closest-side,
+            transparent 0%,
+            transparent 75%,
+            #b6cc66 76%,
+            #b6cc66 85%,
+            #edffdb 86%,
+            #edffdb 94%,
+            #ffffff 95%,
+            #ffffff 103%,
+            #d9e6a7 104%,
+            #d9e6a7 112%,
+            #798b3c 113%,
+            #798b3c 121%,
+            #ffffff 122%,
+            #ffffff 130%,
+            #e0ead7 131%,
+            #e0ead7 140%
+        );
+    background-size: 110px 110px;
+    background-color: #c8d3a7;
+    background-position:
+        0 0,
+        55px 55px;
+    color: #db4d00;
+    font-weight: bolder;
+    text-shadow:
+        1px 1px 2px black,
+        0 0 25px blue,
+        0 0 5px darkblue;
+}
+.menuPrincipal {
+    width: 100%;
+    border: groove;
+    transition: 0.5s;
+    border-radius: 8px;
+}
+.menuPrincipal th {
+    border: groove 1px;
+    border-radius: 8px;
+    border-collapse: collapse;
+    background: transparent;
+    border-color: seagreen;
+    transition: 0.5s ease-in-out;
+}
+.menuPrincipal a {
+    display: block;
+    padding: 10px;
+}
+.menuPrincipal th a:hover {
+    background: transparent;
+
+    color: red;
+    transition: 1s ease-in-out;
+}
+.menuPrincipal th a {
+    color: #254d37;
+    transition: 1s ease-in-out;
+}
+.btn {
+    width: 100%;
+}
+.btn1 {
+    width: 180px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 12px;
+    border: 1px solid seagreen;
+    outline: none;
+    transition-duration: 0.4s;
+    transition: 0.5s ease-in-out;
+}
+.btn2 {
+    width: 180px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 12px;
+    border: 1px solid seagreen;
+    outline: none;
+    transition-duration: 0.4s;
+    transition: 0.5s ease-in-out;
+}
+.btn3 {
+    width: 180px;
+    height: 40px;
+    border-radius: 12px;
+    cursor: pointer;
+    border: 1px solid seagreen;
+    outline: none;
+    transition: 0.1s ease-in-out;
+}
+.btn1:hover {
+    transition: 1s ease-in-out;
+    background-repeat: no-repeat;
+    background-size: 300px 100px;
+    background-image: url(night.png);
+    color: azure;
+    background-position: center;
+}
+.btn2:hover {
+    transition: 1s ease-in-out;
+    background-repeat: no-repeat;
+    background-size: 300px 100px;
+    background-image: url(clouds.jpg);
+    background-position: center;
+}
+.btn3:hover {
+    transition: 1s ease-in-out;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 180px 60px;
+    background-image: url(one%20piece%20background2.avif);
+    color: transparent;
+}
+.tableau th,
+td {
+    text-align: center;
+    border: groove 3px;
+    border-radius: 8px;
+    border-collapse: collapse;
+    background-color: brown;
+    padding: 8px;
+}
+.tableau th {
+    font-size: 120%;
+}
+.tableau td {
+    font-size: 90%;
+}
+.TexteSujet a {
+    color: #97bad8;
+}
+.Retour a {
+    color: #97bad8;
+}
+.reference {
+    color: #97bad8;
+}

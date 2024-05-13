@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Acceuil</title>
+        <link rel="stylesheet" href="styles.css" />
+        <script src="script.js">
+        </script>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=fire">
+        <style>
+            .center {
+  margin: auto;
+    max-width: 1000px;
+  border: 3px solid #73AD21;
+  padding: 50px;
+}
+body {
+  font-family: "Sofia", sans-serif;
+  font-size: 20px;
+}
+</style>
+</head>
+    <body id='accueil' class="center">
+        <!--Titre de la page et titre secondaire-->
+        <h1 class="font-effect-fire">Projet de la Puce au Tic - Vincent Martel</h1>
+        <h2 class="font-effect-fire">À Propos</h2>
+        <h4>Préférences d'affichage:</h4>
+        <div class="btn">
+            <button class="btn1" onclick="nuit()">Nuit</button>
+            <button class="btn2" onclick="jour()">Jour</button>
+            <button class="btn3" onclick="onePiece()">One Piece</button>
+        </div>
+        <p></p>
+        <img />
+        <!--Menu principal cliquable-->
+        <table class="menuPrincipal"  >
+            <tr class="Sélection">
+                <th class="font-effect-fire"> <a href='Acceuil.html'>Acceuil</a></th>
+                <th class="font-effect-fire"> <a href="Propos.html">À Propos</a></th>
+                <th class="font-effect-fire"> <a href="Sujet.html"> Sujet d'intérêt</a></th>
+            </tr>
+        </table>
+        <!--texte du message d'acceuil-->
+        <h4 class='Bio'>Biographie <img src="vincent.png" style='float:right' width="150" height="40%"></h4>
+        <p class="TexteBio">
+            Bonjour &#128540;,</p>
+           <p class="TexteBio"> je me présente:Vincent Martel, 
+               je un nouvel étudiant au Cégep de Saint-jean-sur-Richelieur depuis cette sessiom Hiver 2024. Je viens tout juste 
+               commencer mon parcours en Science de la Nature. Père de deux jeunes garçcons, j'adore également le sport en général et je suis un fervant fan du Canadien de Montréal. Policier militaire de formation, j'ai décidé après
+               18 ans de carrière me redirigé en science santé. Ultimement je compte appliquer en Médecine. 
+               Ceci serais un rêve après un long parcours militaire qui ma mener partout à travers le monde tel que:
+               <ul>
+  <li>L'Afghanistan</li>
+  <li>La Libye</li>
+  <li>Le Mexique</li>
+   <li>Et j'en passe &#128560;</li>
+</ul>  
+        <p></p>
+        <p class="TexteBio"> Voici tableau des cours que j'ai suivie cette session: </p>
+        <table class="tableau"  >
+              <tr>
+    <th>Session</th>
+    <th>Nombre de cours</th>
+    <th>Noms des cours</th>
+  </tr>
+  <tr>
+    <td>Hiver 2024</td>
+    <td>5</td>
+    <td><ul>
+  <li>Algèbre linéaire</li>
+  <li>Chimie des solutions</li>
+  <li>Français 1</li>
+  <li>Philosophie</li>
+   <li>De la Puce au Tic &#128541;</li>
+</ul></td>
+  </tr>
+  <tr>
+    <td>Été 2024</td>
+    <td>1</td>
+    <td>Français 2</td>
+  </tr>
+        </table>
+    
+        <img />
+        <!--bouton de retour-->
+        <p class='Retour'><a href="Acceuil.html">Retour Menu Principal</a></p>
+    </body>
+</html>
